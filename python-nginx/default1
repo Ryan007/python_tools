@@ -1,0 +1,11 @@
+sina_filename_escape on;
+
+location @miss {
+    include subconf/common.miss.conf;
+}
+
+location @miss abbbc{
+    include subconf/common.miss.conf;
+    include subconf/common.miss0.conf;
+    include subconf/common.miss1.conf;
+}
